@@ -1,0 +1,201 @@
+
+/* compare page */
+
+section{
+    margin: 10px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    
+}
+table
+{
+    width: 100%;
+}
+.compare1
+{
+    margin:10px;
+    padding:10px;
+    background-color: #EDEDED ;
+    font-size: 13px;
+
+}
+.secondrow
+{
+    display :flex;
+    border:     2px solid #EDEDED;
+    margin: 10px;
+}
+.firstcolumn
+{
+    flex: 2;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+  
+    border:  solid #EDEDED;
+}
+.secondcolumn
+{
+  
+    flex: 3;
+    margin: 5px;
+    border:  solid #EDEDED;
+}
+.thirdsolumn
+{  border:1px solid ;
+    flex: 3;
+    margin: 5px;
+    border:  solid #EDEDED;
+   
+}
+.fourcolumn
+{ border:1px solid ;
+    flex: 3;
+    margin: 5px;
+    border:  solid #EDEDED;
+
+}
+
+table
+{
+    margin: 0px;
+    padding: 10px;         
+
+}
+th{
+    border:  solid #EDEDED;
+}
+td{
+    text-align: center;
+    border:  solid #EDEDED
+}
+.stock
+{
+    color: green;
+}
+.namess
+{
+    color:green; 
+}
+.buttonbutton
+{
+    color: green;
+}
+
+
+.footerone
+ {
+    background-color: #ADCCC5;
+    border: 2px black;
+    display: flex;
+    margin: 10px;
+    
+ }
+.fonee
+{
+    flex: 1;
+    margin: 10px;
+    line-height: 50px;             
+    text-align: center;
+    
+  
+}
+.ftwo
+{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.fthree
+{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+button{
+    background-color: green;
+    color: whitesmoke;
+    cursor: pointer;
+}
+footer second row
+.srow
+{
+    display: flex;   
+    margin: 10px;             
+ }
+.sone
+{
+    flex: 4;
+    margin-left: 20px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.paymet
+{
+  
+    height: 60%;         
+    text-align: center;
+    line-height: 50%;
+}
+.stwo
+{
+    flex: 3;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.sthree
+{
+    flex: 3;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;      
+    font-size: 18px;
+}
+
+.sfour
+{            
+    flex: 3;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+three row footer
+.tfooter
+{
+    display: flex;      
+}      
+.rone
+{
+    flex: 1;
+    text-align: left;          
+}
+.rtwo
+{
+    line-height: 40px;
+    flex:1;
+    text-align:right;
+}
+.fone
+{
+    height: 10px;
+    text-align: center;
+   
+}  
+.paymet
+{
+   
+    height: 30%;         
+    text-align: center;
+}   

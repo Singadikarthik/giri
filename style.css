@@ -1,0 +1,110 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+   
+}
+
+header {
+    grid-template-columns: 25% 50% 25%;
+
+}
+header ul{
+    grid-template-columns: repeat(5,1fr);
+    list-style: none;
+    margin: 5% 0;
+
+}
+header,header ul{
+    display: grid;
+}
+a{
+    color: black;
+    text-decoration: none
+
+}
+a:hover{
+    color: rgb(9, 166, 82);
+}
+header .icons i{
+    margin: 10% 1%;
+}
+.bannerblock img{
+    width: 50%;
+    height: 500px;
+    padding: 20PX 10PX 20PX 10PX;
+    margin: 60px 20px 30px 700px;
+    
+
+}
+<!DOCTYPE html>
+//*<html>
+<head>
+<title>Guess The Number!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<style>
+*{margin:0; padding: 0;}
+body {font-family: "Press Start 2P", system-ui;font-weight: 400; font-style: normal; line-height: 1.6;background-color: #1c2626d4;  color: #fff;}
+input, button{font-size:20px; font-family:inherit;  text-align: center; cursor: pointer; padding: 10px;}
+li{ list-style-type: none; line-height: 45px;}
+li:first-child::before{ content: "💯"; }
+li::before { content: "\1F9D8";}
+hr{width: 100%; position: relative;bottom: -40px; border:2px solid #fff;}
+
+.header{ display: flex;justify-content: space-between;  height: 100px; margin: 10px;}
+.header button{ height: 60px;}
+.display-board-wrapper{ width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;align-content: center;height: 200px;}
+.display-board-wrapper input{ width: 75px;height: 50px;position: relative; z-index: 1;}
+.input-board-wrapper{display: flex;justify-content: space-around;}
+.input-board-wrapper .left-column{ display: flex; flex-direction: column; gap:10px;}
+.input-board-wrapper input{ width: 117px;height: 50px;}
+.response { display: block; margin: 0 0 50px 0;}
+.response::before{ content: "😎";}
+
+</style>
+<body>
+<div id="main">
+    <section>
+        <div class="container">
+            <div class="header">
+                <button>
+                    Again!
+                </button>
+                <span class="instruction">
+                    <p>(Between 1 and 20)</p>
+                </span>
+            </div>
+            <div class="display-board-wrapper">
+                <h2>Guess My Number!</h2>
+                <hr/>
+                <div class="display-board">
+                    <input type="text" value="?" readonly>
+                </div>
+            </div>
+            <div class="input-board-wrapper">
+                <div class="left-column">
+                    <input type="text">
+                    <button>Check!</button>
+                </div>
+                <div class="right-colum">
+                    <span class="response">Start guessing...</span>
+                    <ul class="score-board">
+                        <li>Score: 20 </li>
+                        <li>Highscore: 0 </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    const target = document.querySelector(".input-board-wrapper input");
+    target.focus();
+
+</script>
+</body>
+</html> //
+//

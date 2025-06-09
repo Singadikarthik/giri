@@ -1,0 +1,481 @@
+.bannerContent{
+    
+    position: absolute;
+    top: 130px;
+}
+.bannerblock{
+    position: relative;
+}
+.bannerContent h1 span{
+color:rgb(9, 166, 82);
+font-size: 150%;
+}
+.popular span{
+    color: rgb(9, 166, 82);
+}
+.popularsection{
+   display: flex;
+   grid-template-columns: repeat(6,1fr);
+}
+.selecton{
+    display: flex;
+    column-gap: 0.75%;
+    border-radius: %;
+    cursor: pointer;
+
+}
+.insideone{
+            
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 10px;
+}
+.tdivone
+{
+    border: 2px solid  #EDEDED;
+    margin: 10px;
+    border-radius: 15px;
+    object-fit: fill;
+   
+    text-align: center;
+
+    
+}
+.comparemain
+{
+    
+      margin: 10px;          
+   
+}
+
+
+.insideone{
+   
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    width: 50%;
+
+}
+.tdiv
+{
+   border: 2px solid  rgb(9, 166, 82) ;
+   margin: 10px;
+   border-radius: 25px;
+}
+
+.deals
+{
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+}
+.dealsone
+{
+   flex: 1;
+   padding-top: 30px;
+   margin: 10px;
+   padding: 10px;
+   background-image: url(./assets/img/deals-1.jpg);
+   height: 500px;
+   background-size: 100% 100%;
+   border-radius: 10px;
+   
+}
+.dealstwo
+{
+   border-radius: 10px;
+   
+   flex: 1;
+   margin: 10px;
+   padding: 10px;
+   background-image: url(./assets/img/deals-2.png);
+   height: 500px;
+   background-size: 100% 100%;
+}
+/* four column */
+.fourcolfooter
+{  
+   display: flex;
+   margin: 10px;
+}
+.firstcolumn
+{
+   flex: 1;
+   margin: 10px;        
+}
+.fcr1
+{
+   margin: 10px;
+}
+.text
+{
+   margin-left: 20px;
+   padding: 0px;
+   float: right;
+}
+.fcr2
+{
+  margin: 20px;
+
+}.fcr3
+{           
+   margin: 10px;
+}
+.secondcolumn
+{
+   margin: 10px;
+   flex: 1;
+}
+.stext
+{
+   margin-left: 20px;
+   padding: 0px;
+   float: right;
+}
+.scr1
+{
+   margin: 10px;        
+}
+.scr2
+{
+  margin: 20px;
+}.scr3
+{
+ 
+   margin: 10px;
+
+}
+.thirdcolumn
+{
+   flex: 1;
+   margin: 10px;         
+}
+.tcr1
+{
+  margin: 10px;           
+}
+
+.tcr2
+{
+   margin: 20px;
+
+}.tcr3
+{
+  
+   margin: 10px;
+}       
+.fourthcolumn
+{
+   flex: 1;
+   margin: 10px;
+   
+}
+.focr1
+{
+
+   margin: 10px;
+   
+  
+}
+
+.focr2
+{
+  
+   margin: 20px;
+
+}.focr3
+{
+  
+   margin: 10px;
+
+}
+
+
+/* footer */
+.footerone
+{
+   background-color: #ADCCC5;
+   border: 2px black;
+   display: flex;
+   margin-left: 0px;
+}
+.fone
+{
+   flex: 1;
+   margin: 10px;
+   line-height: 50px;             
+   text-align: center;
+   position: relative;
+}
+.ftwo
+{
+   flex: 1;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+}
+.fthree
+{
+   flex: 1;
+   margin: 10px;
+   padding: 10px;
+   line-height: 50px;
+   text-align: center;
+}
+/* button{
+   background-color: black;
+   color: whitesmoke;
+} */
+/* footer second row */
+.srow
+{
+   display: flex;   
+   margin: 10px;             
+}
+.sone
+{
+   flex: 4;
+   margin-left: 20px;
+   text-align: left;
+   padding: 10px;
+   margin: 10px;
+   width: 10px;
+       }
+
+.paymet
+{
+   width: 60%;
+   height: 60%;         
+   text-align: center;
+   line-height: 50%;
+}
+.stwo
+{
+   flex: 3;
+   text-align: left;
+   margin-left: 10px;
+   padding-left: 20px;
+   font-size: 18px;
+}
+
+.sthree
+{
+   flex: 3;
+   text-align: left;
+   margin-left: 10px;
+   padding-left: 20px;      
+   font-size: 18px;
+}
+
+.sfour
+{            
+   flex: 3;
+   text-align: left;
+   margin-left: 10px;
+   padding-left: 20px;
+   font-size: 18px;
+}
+/* three row footer */
+.tfooter
+{
+   display: flex;      
+}      
+.rone
+{
+   flex: 1;
+   text-align: left;          
+}
+.rtwo
+{
+   line-height: 40px;
+   flex:1;
+   text-align:right;
+}
+.fone
+{
+   height: 10px;
+   width: 10px;
+}  
+.paymet
+{
+   width: 30%;
+   height: 30%;         
+   text-align: center;
+} 
+.footerone
+{
+background-color: #ADCCC5;
+border: 2px green;
+display: flex;
+
+}
+.fone
+{
+flex: 2;
+border: 2px solid red;
+margin: 10px;
+position: relative;
+bottom: 40px;
+left:2px;
+        
+
+}
+.ftwo
+{
+flex: 5;
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+.fthree
+{
+flex: 5;
+margin: 10px;
+padding: 10px;
+line-height: 50px;
+text-align: center;
+}
+/* button{
+background-color: black;
+color: whitesmoke;
+} */
+/* footer second row */
+.srow
+{
+display: flex;   
+margin: 10px;             
+}
+
+.sone
+{
+flex: 4;
+margin-left: 20px;
+text-align: left;
+padding: 10px;
+margin: 10px;
+}
+
+.paymet
+{
+width: 60%;
+height: 60%;         
+text-align: center;
+line-height: 50%;
+}
+.stwo
+{
+flex: 3;
+text-align: left;
+margin-left: 10px;
+padding-left: 20px;
+font-size: 20px;
+}
+
+.sthree
+{
+flex: 3;
+text-align: left;
+margin-left: 10px;
+padding-left: 20px;      
+font-size: 20px;
+}
+
+.sfour
+{            
+flex: 3;
+text-align: left;
+margin-left: 10px;
+padding-left: 20px;
+font-size: 20px;
+}
+/* three row footer */
+.tfooter
+{
+display: flex;      
+}      
+.rone
+{
+flex: 1;
+text-align: left;          
+}
+.rtwo
+{
+line-height: 40px;
+flex:1;
+text-align:right;
+}
+
+.paymet
+{
+width: 30%;
+height: 30%;         
+text-align: center;
+}  
+.fonee
+{
+   flex: 1;
+   margin: 10px;
+   line-height: 20px;             
+   text-align: center;
+ 
+} 
+.sone
+{
+   flex: 4;
+   margin-left: 20px;
+   text-align: left;
+   padding: 10px;
+   margin: 10px;
+}
+/* four images */
+.comparemain2
+{
+   margin: 10px;
+  
+ 
+
+}
+
+.inside2{
+   
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+  
+
+}
+.tdiv2
+{
+   border: 2px solid  #EDEDED;
+   margin: 10px;
+   border-radius: 15px;
+   
+  
+   
+  
+   
+}
+body {
+   margin: 20px;
+   padding: 20px;
+}
+
+
+.jack
+{
+   position: relative;
+   top: 55px;
+   left: 30px;
+   border-radius: 10px ;
+   
+  
+
+
+}
+.jack1
+{
+   position: relative;
+   top: 55px;
+   left: 20px;
+   border-radius: 10px ;
+
+}

@@ -1,0 +1,321 @@
+
+img
+{
+    margin-bottom: 40px;
+    width: 80%;
+
+}
+
+
+
+/* shop table */
+.shop1
+{
+    
+    
+    height: 40px;
+   
+    text-align: left;
+    background-color: #EDEDED ;
+    font-size: 20px;
+    
+
+
+}
+.comparemain
+{
+
+    margin: 10px;
+   
+}
+
+.inside{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.tdiv
+{
+    border: 2px solid rgb(9, 166, 82);
+    margin: 10px;
+    border-radius: 15px;
+    
+   
+    position: relative;
+    left: 20px;
+    
+}
+.g1
+{
+
+   
+    border-radius: 15px;
+    width: 100%;
+    padding: 1px;
+   
+}
+/* .i
+{
+    border-radius: 10px solid red;
+    position: relative;
+    left: 350px;
+    width: 30px;
+    height: 30px;
+    
+    
+} */
+ /* footer */
+.footerone
+ {
+    background-color: #ADCCC5;
+    border: 2px black;
+    display: flex;
+    margin-left: 0px;
+ }
+.fone
+{
+    flex: 1;
+    margin: 10px;
+    line-height: 50px;             
+    text-align: center;
+    position: relative;
+}
+.ftwo
+{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.fthree
+{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+/* button{
+    background-color: black;
+    color: whitesmoke;
+} */
+/* footer second row */
+.srow
+{
+    display: flex;   
+    margin: 10px;             
+ }
+.sone
+{
+    flex: 4;
+    margin-left: 20px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    width: 10px;
+        }
+
+.paymet
+{
+    width: 60%;
+    height: 60%;         
+    text-align: center;
+    line-height: 50%;
+}
+.stwo
+{
+    flex: 3;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.sthree
+{
+    flex: 3;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;      
+    font-size: 18px;
+}
+
+.sfour
+{            
+    flex: 3;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+/* three row footer */
+.tfooter
+{
+    display: flex;      
+}      
+.rone
+{
+    flex: 1;
+    text-align: left;          
+}
+.rtwo
+{
+    line-height: 40px;
+    flex:1;
+    text-align:right;
+}
+.fone
+{
+    height: 10px;
+    width: 10px;
+}  
+.paymet
+{
+    width: 30%;
+    height: 30%;         
+    text-align: center;
+} 
+.footerone
+{
+background-color: #ADCCC5;
+border: 2px rgb(212, 15, 15);
+display: flex;
+
+}
+.fone
+{
+flex: 2;
+border: 2px solid red;
+margin: 10px;
+position: relative;
+bottom: 40px;
+left:2px;
+text-align: center;
+         
+
+}
+.ftwo
+{
+flex: 5;
+margin-top: 40px;
+padding: 5px;
+text-align: center;
+}
+.fthree
+{
+flex: 5;
+margin-top: 40px;
+padding: 10px;
+line-height: 50px;
+text-align: center;
+}
+/* button{
+background-color: black;
+color: whitesmoke;
+} */
+/* footer second row */
+.srow
+{
+display: flex;   
+margin: 10px;             
+}
+.sone
+{
+flex: 4;
+margin-left: 20px;
+text-align: left;
+padding: 10px;
+margin: 10px;
+}
+
+.paymet
+{
+width: 60%;
+height: 60%;         
+text-align: center;
+line-height: 50%;
+}
+.stwo
+{
+flex: 3;
+text-align: left;
+margin-left: 10px;
+padding-left: 20px;
+font-size: 20px;
+}
+
+.sthree
+{
+flex: 3;
+text-align: left;
+margin-left: 10px;
+padding-left: 20px;      
+font-size: 20px;
+}
+
+.sfour
+{            
+flex: 3;
+text-align: left;
+margin-left: 10px;
+padding-left: 20px;
+font-size: 20px;
+}
+/* three row footer */
+.tfooter
+{
+display: flex;      
+}      
+.rone
+{
+flex: 1;
+text-align: left;          
+}
+.rtwo
+{
+line-height: 40px;
+flex:1;
+text-align:right;
+}
+
+.paymet
+{
+width: 30%;
+height: 30%;         
+text-align: center;
+}  
+.fonee
+{
+    flex: 1;
+    margin: 10px;
+    line-height: 20px;             
+    text-align: center;
+  
+} 
+.sone
+{
+    flex: 4;
+    margin-left: 20px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.jack
+{
+    position: relative;
+    top: 75px;
+    left: 15px;
+    border-radius: 10px ;    
+}
+
+
+.jack1
+{
+    position: relative;
+    top: 75px;
+    left: 45px;
+    border-radius: 10px ;    
+}
